@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    background: linear-gradient(to right, #121212, #212121);
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #212121;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, select {
+    width: calc(100% - 0px); /* Adjust width to accommodate padding and border */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #121212;
+    color: #FFFFFF;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+button {
+    background-color: #38A3A5;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2E8A7B;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #757575;
+}
+
+footer a {
+    color: #38A3A5;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

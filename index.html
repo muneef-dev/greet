@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Greet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="main-heading">Welcome, Ati சமூகமே</h1>
+        <form id="userForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="department">Department:</label>
+            <select id="department" name="department" required>
+                <option value="it">IT</option>
+                <option value="english">English</option>
+                <option value="project">Project</option>
+                <option value="accounts">Accounts</option>
+            </select>
+            
+            <button type="submit">Click Here</button>
+        </form>
+        
+        <div id="message" class="message hidden">
+            <p id="greeting"></p>
+        </div>
+        
+        <footer>
+            <p>Developed by mOha. &copy; 2024</p>
+            <p><a href="https://www.linkedin.com/in/muneef-marzook" target="_blank">Follow me on LinkedIn</a></p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
